@@ -1,0 +1,81 @@
+.step_two {
+  height: 50vh;
+  width: 70vw;
+  background-color: red;
+  border-radius: 25px;
+  padding: 2rem;
+}
+
+.step_two .step_two_wrap {
+  background-color: green;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.step_two .step_two_wrap .close_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.step_two .step_two_wrap .step_two_head span {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 18px;
+  color: #454545;
+}
+
+.step_two .step_two_wrap .bar_input .bar_container {
+  border: 2px solid cyan;
+  border-radius: 100px;
+  padding: 8px 0;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.step_two .step_two_wrap .bar_input .bar_container::before {
+  content: '';
+  background-color: red;
+  background: -webkit-gradient(linear, right top, left top, color-stop(2.2%, #34f2c6), to(#1ecef7));
+  background: linear-gradient(270deg, #34f2c6 2.2%, #1ecef7 100%);
+  border-radius: 100px;
+  padding: 8px 25px;
+  position: absolute;
+  width: 65%;
+  left: 0;
+  height: 100%;
+}
+
+.step_two .step_two_wrap .bar_input input {
+  width: 100%;
+}
+
+.step_two .step_two_wrap .dual_btn_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.step_two .step_two_wrap .dual_btn_wrap button {
+  width: 50%;
+  display: inline-block;
+  background-color: blue;
+}
+/*# sourceMappingURL=OverlayStepTwo.module.css.map */

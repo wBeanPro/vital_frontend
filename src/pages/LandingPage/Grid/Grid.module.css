@@ -1,0 +1,28 @@
+.grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+
+.grid .grid_head {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 14px;
+  text-align: justified;
+  color: #454545;
+}
+
+.grid .grid_body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=Grid.module.css.map */

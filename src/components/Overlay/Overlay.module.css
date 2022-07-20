@@ -1,0 +1,111 @@
+.overlay {
+  border: 1px solid black;
+  background-color: #fff;
+  margin: auto;
+  height: 95%;
+  width: 50%;
+  z-index: 999;
+  border-radius: 20px;
+  padding: 1.5rem;
+  position: absolute;
+  top: 5%;
+  left: 25%;
+}
+
+.overlay_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+  padding: 0 1.5rem 0 1.5rem;
+  height: 100%;
+  width: 100%;
+}
+
+.overlay_head span {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 14px;
+  color: #454545;
+  text-align: justify;
+}
+
+.overlay_body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+}
+
+.body_bar {
+  border: 2px solid cyan;
+  border-radius: 100px;
+  padding: 8px 0;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.body_bar::before {
+  content: '';
+  background-color: red;
+  background: -webkit-gradient(linear, right top, left top, color-stop(2.2%, #34f2c6), to(#1ecef7));
+  background: linear-gradient(270deg, #34f2c6 2.2%, #1ecef7 100%);
+  border-radius: 100px;
+  padding: 8px 25px;
+  position: absolute;
+  width: 30%;
+  left: 0;
+  height: 100%;
+}
+
+.body_grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+
+.btn_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.btn_wrap button {
+  width: 12%;
+  padding: 0.4rem 1rem;
+}
+
+.close_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+/*# sourceMappingURL=Overlay.module.css.map */

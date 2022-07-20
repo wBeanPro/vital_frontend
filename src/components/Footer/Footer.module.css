@@ -1,0 +1,213 @@
+.footer {
+  background-color: #f2f2f2;
+}
+
+.footer_content_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 40px 40px 30px 40px;
+}
+
+.footer_content_wrap img {
+  max-width: 100%;
+}
+
+.footer_logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  padding-bottom: 27px;
+}
+
+.footer_logo_img {
+  width: 71px;
+  height: 71px;
+}
+
+.footer_logo_text {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  color: #2f455c;
+  padding-left: 10px;
+}
+
+.footer_head {
+  color: #2f455c;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+}
+
+.footer_description_one {
+  color: #2f455c;
+  font-weight: 400;
+  line-height: 18.78px;
+  margin-bottom: 0;
+}
+
+.footer_description_two {
+  color: #2f455c;
+  font-weight: 400;
+  line-height: 18.78px;
+}
+
+.footer_btn_wrap {
+  width: 55%;
+}
+
+.footer_btn_wrap button {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.62px;
+  font-family: "Segoe UI";
+}
+
+.footer_bottom_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer_social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 25px;
+  font-weight: 400;
+  padding: 15.5px 50px 25px 50px;
+  border-bottom: 2px solid #ececec;
+}
+
+.footer_social_text {
+  font-size: 18px;
+  line-height: 21.13px;
+  color: #adadad;
+}
+
+.footer_copyright_text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #adadad;
+  font-style: normal;
+}
+
+.footer_copyright_year {
+  padding-right: 5px;
+}
+
+[alt="footer-img"] {
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer {
+    background-image: url("../../assets/img/footer-img-large.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+  }
+  .footer_desktop_wrap {
+    background-repeat: no-repeat;
+  }
+  .footer_content_wrap {
+    padding: 40px 100px 30px 100px;
+  }
+  .footer_logo {
+    padding-bottom: 50px;
+  }
+  .footer_img {
+    display: none;
+  }
+  .footer_btn_wrap {
+    width: 14%;
+    padding: 10px 0 30px 0;
+  }
+  .footer_btn_wrap > button {
+    font-size: 14px;
+    line-height: 18.62px;
+  }
+  .footer_bottom_wrap {
+    padding: 0 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #fff;
+  }
+  .footer_social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 25px;
+    font-weight: 400;
+    padding: 15.5px 0 25px 0;
+    border-bottom: 2px solid #ececec;
+  }
+  .footer_social_text {
+    font-size: 18px;
+    line-height: 21px;
+    color: #adadad;
+  }
+  .footer_copyright_text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #adadad;
+    font-style: normal;
+  }
+  .footer_copyright_year {
+    padding-right: 5px;
+  }
+}
+
+[alt="facebook"] {
+  margin-right: 25px;
+}
+
+[alt="twitter"] {
+  margin-right: 25px;
+}
+/*# sourceMappingURL=Footer.module.css.map */

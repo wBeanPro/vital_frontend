@@ -1,0 +1,16 @@
+.gradient_btn {
+  background: linear-gradient(270deg, #34f2c6 2.2%, #1ecef7 100%);
+  filter: drop-shadow(0px 15px 20px rgba(75, 75, 75, 0.302));
+  outline: none;
+  border: 0;
+  color: rgba(255, 255, 255, 1);
+  padding: 0.7rem 0;
+  width: 100%;
+  border-radius: 1.5rem;
+  // Added:
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.13px;
+  // ******************************
+}

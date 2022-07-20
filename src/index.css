@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --primary-text-color: rgba(47, 69, 92, 1);
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--primary-text-color);
+}
+
+a {
+  text-decoration: none;
+  color: #141414;
+}
+
+a:active {
+  color: #141414;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+button {
+  cursor: pointer;
+}
+
+/* Extra CSS */
+@font-face {
+  font-family: Segoe UI;
+  src: url('./assets/fonts/SEGOEUI.TTF');
+}
+
+.nav_mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  position: relative;
+}
+
+/* Added */
+
+.brand_logo_wrapper_mob {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* ************************* */
+.nav_desktop {
+  display: none;
+}
+
+.brand_name {
+  font-family: sans-serif;
+  font-size: 1.6rem;
+  font-weight: normal;
+  color: var(--primary-text-color);
+  padding-left: 8px;
+}
+
+.carousel__dot {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: 1px solid #102f35;
+  background-color: #fff;
+}
+.carousel__dot + .carousel__dot {
+  margin-left: 1rem;
+  border: 1px solid rgba(16, 47, 53, 1);
+}
+
+.carousel__dot--selected {
+  background-color: #102f35;
+  border: 1px solid #102f35;
+}
+input {
+  outline: none;
+}
+.hidden {
+  display: none;
+}
+.overlay_bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+}
+.vital_modal {
+  border-radius: 20px;
+  width: 100%;
+}
+@media only screen and (max-width: 850px) {
+  .vital_modal {
+    margin: 0 !important;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .nav_mobile {
+    display: none;
+  }
+  .nav_desktop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5% 3.5% 1.5% 10%;
+    background: rgba(255, 255, 255, 1);
+  }
+
+  .brand_logo_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav_links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+  }
+
+  .links_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 1.5rem;
+  }
+
+  .nav_links a {
+    display: flex;
+    padding: 1rem;
+    min-width: fit-content;
+    font-weight: 500;
+  }
+
+  .connect_wrapper {
+    min-width: 10rem;
+  }
+}
+.wallect-connect-login, .test-class_name {
+  position: fixed;
+  left:0;
+  top:0;
+  width:100%;
+  z-index: 9999;
+  height: 100vh;
+}
+.mbsc-ios.mbsc-textfield-wrapper-box, .mbsc-ios.mbsc-textfield-wrapper-outline {
+  margin: 0 !important;
+}
+/* .mbsc-ios.mbsc-select-icon {
+  top: 0.4em !important;
+} */
+.nav_icon_div {
+  position: absolute;
+  padding: 10px;
+  right: 5px;
+  cursor: pointer;
+}
+.mobile-navbar.show {
+  top: 0;
+}
+.mobile-navbar.hide {
+  top:-100vh;
+}
+.mobile-navbar {
+  position: absolute;
+  left:0;
+  width: 100%;
+  padding: 30px;
+  padding-top: 50px;
+  transition: all 1s;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  text-align: center;
+  gap: 20px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  filter: drop-shadow(0px 15px 20px rgba(75, 75, 75, 0.302));
+}
+.mobile-navbar > button {
+  filter: none;
+}
+.nav_cancel_div {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  cursor: pointer;
+}
+.nav_cancel_div > svg {
+  color: #1ecef7;
+}

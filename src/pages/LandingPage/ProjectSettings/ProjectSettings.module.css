@@ -1,0 +1,181 @@
+.settings_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  font-weight: 400;
+  color: #454545;
+  font-family: 'Raleway', sans-serif;
+}
+
+.settings_wrapper .left_side {
+  padding: 1rem;
+  border-right: 1px solid #e5e5e5;
+}
+
+.settings_wrapper .left_side .action_btn_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.settings_wrapper .left_side .action_btn_container .action_btn {
+  background: none;
+  outline: none;
+  border: 0;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+.settings_wrapper .left_side .action_btn_container .action_btn.active {
+  border-radius: 1rem;
+  border: 0;
+  outline: none;
+  padding: 0.8rem 2rem;
+  background: #34f2c633;
+}
+
+.settings_wrapper .left_side .action_btn_container .action_btn + .action_btn {
+  margin-top: 1rem;
+}
+
+.settings_wrapper .right_side {
+  width: 80%;
+  padding: 1rem;
+  border-left: none;
+}
+
+.settings_wrapper .right_side .field_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.settings_wrapper .right_side .field_container .field_title {
+  font-size: 1rem;
+  padding: 0 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.settings_wrapper .right_side .field_container .field_input input {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-radius: 1.2rem;
+  border: 1px solid #e5e5e5;
+  outline: none;
+}
+
+.settings_wrapper .right_side .field_container .field_input input,
+.settings_wrapper .right_side .field_container .field_input input::-webkit-input-placeholder {
+  font-size: 0.8rem;
+  font-family: inherit;
+  color: #959595;
+}
+
+.settings_wrapper .right_side .field_container .field_input input,
+.settings_wrapper .right_side .field_container .field_input input:-ms-input-placeholder {
+  font-size: 0.8rem;
+  font-family: inherit;
+  color: #959595;
+}
+
+.settings_wrapper .right_side .field_container .field_input input,
+.settings_wrapper .right_side .field_container .field_input input::-ms-input-placeholder {
+  font-size: 0.8rem;
+  font-family: inherit;
+  color: #959595;
+}
+
+.settings_wrapper .right_side .field_container .field_input input,
+.settings_wrapper .right_side .field_container .field_input input::placeholder {
+  font-size: 0.8rem;
+  font-family: inherit;
+  color: #959595;
+}
+
+.settings_wrapper .right_side .field_container .field_input .choose_btn {
+  border: 1px solid #e5e5e5;
+  outline: none;
+  background: #ffffff;
+  border-radius: 1rem;
+  color: #454545;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 0.8rem;
+  padding: 0.5em 0;
+  min-width: 10rem;
+  height: 2.5rem;
+  max-height: 3.5rem;
+}
+
+.settings_wrapper .right_side .field_container .field_input .field_input_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.settings_wrapper .right_side .field_container .field_input .field_input_container button {
+  margin-right: 2rem;
+}
+
+.settings_wrapper .right_side .field_container .field_input .field_input_container .image_box {
+  max-width: 50%;
+}
+
+.settings_wrapper .right_side .field_container .field_input .field_input_container .image_box img {
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+.settings_wrapper .right_side .field_container + .field_container {
+  margin-top: 1.2rem;
+}
+
+.settings_wrapper .right_side .description_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 1px solid #e5e5e5;
+  border-radius: 20px;
+}
+
+.settings_wrapper .right_side .description_container .description_header {
+  padding: 1rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.settings_wrapper .right_side .description_container .description_body {
+  padding: 5%;
+}
+
+.settings_wrapper .right_side .description_container .description_body .description_cover_image {
+  width: 100%;
+}
+
+.settings_wrapper .right_side .description_container .description_body .description_cover_image img {
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+.settings_wrapper .right_side .description_container .description_body .description_text {
+  font-family: Raleway;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: justified;
+}
+/*# sourceMappingURL=ProjectSettings.module.css.map */

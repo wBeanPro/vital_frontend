@@ -1,0 +1,23 @@
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  .grid_head {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 14px;
+    text-align: justified;
+    color: #454545;
+  }
+  .grid_body {
+    display: grid;
+    @media screen and (max-width: 700px) {
+      grid-template-columns: 30% 30% 30%;
+    }
+    @media screen and (max-width: 340px) {
+      grid-template-columns: 45% 45%;
+    }
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+  }
+}

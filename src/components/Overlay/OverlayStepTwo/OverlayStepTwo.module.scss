@@ -1,0 +1,58 @@
+.step_two {
+  height: 50vh;
+  width: 70vw;
+  background-color: red;
+  border-radius: 25px;
+  padding: 2rem;
+  .step_two_wrap {
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    .close_btn {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .step_two_head {
+      span {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 18px;
+        color: #454545;
+      }
+    }
+    .bar_input {
+      .bar_container {
+        border: 2px solid cyan;
+        border-radius: 100px;
+        padding: 8px 0;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        &::before {
+          content: '';
+          background-color: red;
+          background: linear-gradient(270deg, #34f2c6 2.2%, #1ecef7 100%);
+          border-radius: 100px;
+          padding: 8px 25px;
+          position: absolute;
+          width: 65%;
+          left: 0;
+          height: 100%;
+        }
+      }
+      input {
+        width: 100%;
+      }
+    }
+    .dual_btn_wrap {
+      display: flex;
+      button {
+        width: 50%;
+        display: inline-block;
+        background-color: blue;
+      }
+    }
+  }
+}

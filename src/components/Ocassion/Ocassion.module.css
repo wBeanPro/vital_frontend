@@ -1,0 +1,134 @@
+.ocassion_desktop {
+  display: none;
+}
+
+.ocassion_mobile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ocassion_mobile_content_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -45px;
+}
+
+.ocassion_mobile_title {
+  font-weight: 700;
+  line-height: 18.78px;
+  color: #2f455c;
+  padding-bottom: 7px;
+}
+
+.ocassion_mobile_description_first {
+  font-weight: 500;
+  line-height: 12.91px;
+  color: #2f455c;
+  font-size: 11px;
+  text-align: center;
+  margin: 0;
+}
+
+.ocassion_mobile_description_second {
+  font-weight: 500;
+  line-height: 12.91px;
+  color: #2f455c;
+  font-size: 11px;
+  text-align: center;
+  margin: 0;
+}
+
+.ocassion_mobile_btn {
+  padding-top: 29px;
+}
+
+.ocassion_mobile_btn button {
+  font-size: 12px;
+  line-height: 14.09px;
+  font-weight: 400;
+  padding: 10px 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  .ocassion_mobile {
+    display: none;
+  }
+  .ocassion_desktop {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .ocassion_desktop_top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    width: 100%;
+    padding: 0 1rem;
+    margin-bottom: -5px;
+  }
+  .ocassion_desktop_bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    padding: 0 1rem;
+    margin-top: -42px;
+  }
+  .ocassion_desktop_center img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media only screen and (min-width: 1408px) {
+  .ocassion_mobile {
+    display: none;
+  }
+  .ocassion_desktop_bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    padding: 0 1rem;
+    margin-top: -52px;
+  }
+}
+/*# sourceMappingURL=Ocassion.module.css.map */

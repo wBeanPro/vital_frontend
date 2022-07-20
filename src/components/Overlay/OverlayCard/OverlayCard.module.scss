@@ -1,0 +1,39 @@
+.overlay_card {
+  text-align: center;
+  cursor: pointer;
+  padding: 1.5rem;
+  @media only screen and (max-width: 768px) {
+    padding: 1.5rem 0;
+  }
+}
+.overlay_card.active {
+  img {
+    border: 2px solid #34F2C6;
+    border-radius: 15px;
+  }
+}
+.overlay_card:hover {
+  img {
+    border: 1px solid #34F2C6;
+    border-radius: 15px;
+  }
+}
+.overlay_title {
+  padding-top: 0.5rem;
+  span {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    color: #454545;
+    overflow-wrap: anywhere;
+  }
+}
+.overlay_img_wrap {
+  display: grid;
+  place-items: center;
+
+  img {
+    width: 60%;
+  }
+}

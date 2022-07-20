@@ -1,0 +1,227 @@
+.advance_card {
+  &_img {
+    width: 100%;
+    height: 100%;
+  }
+  &_content_wrap {
+    margin-top: -25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+  }
+  &_title {
+    color: #2f455c;
+    font-size: 22px;
+    font-weight: 700, bold;
+    line-height: 25.83px;
+    margin: 0;
+  }
+  &_description_first {
+    text-align: center;
+    margin-bottom: 0;
+    color: #102f35;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  &_description_second {
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 0;
+    color: #102f35;
+    padding: 0 20px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  &_btn > button {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 25px;
+    font-style: normal;
+    padding: 12px 0;
+  }
+}
+[btns="View all personal projects"] {
+  padding: 30px 0;
+  width: 100%;
+  font-size: 21px;
+}
+[btns="See all charities"] {
+  padding: 30px 0;
+  width: 75%;
+  font-size: 21px;
+}
+@media only screen and (min-width: 768px) {
+  .advance_card {
+    padding: 0 3rem 0 3rem;
+    width: 50%;
+    &_img {
+      display: none;
+    }
+    &_content_wrap {
+      margin-top: 0;
+      align-items: flex-start;
+    }
+    &_title {
+      margin: 0;
+      font-size: 35px;
+      line-height: 43.7px;
+      padding-bottom: 20px;
+      padding-top: 20px;
+    }
+    &_description_first {
+      text-align: left;
+      margin-top: 0;
+      margin-bottom: 0;
+      font-size: 21px;
+      line-height: 31px;
+    }
+    &_description_second {
+      margin-top: 0;
+      text-align: left;
+      margin-bottom: 0;
+      padding: 0;
+      font-size: 21px;
+      line-height: 31px;
+    }
+    &_btn {
+      font-size: 15px;
+      padding-bottom: 0;
+      & button {
+        width: 15em;
+        font-size: 1em;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .advance_card {
+    &_title {
+      margin: 0;
+      font-size: 50px;
+      line-height: 60px;
+      padding-bottom: 24px;
+      padding-top: 24px;
+    }
+    &_description_first {
+      text-align: left;
+      margin-top: 0;
+      margin-bottom: 0;
+      font-size: 24px;
+      line-height: 32px;
+    }
+    &_description_second {
+      margin-top: 0;
+      text-align: left;
+      margin-bottom: 0;
+      padding: 0;
+      font-size: 24px;
+      line-height: 32px;
+    }
+    &_btn {
+      font-size: 18px;
+      padding-bottom: 0;
+      & button {
+        width: 16em;
+        font-size: 1.5em;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .advance_card {
+    &_title {
+      margin: 0;
+      font-size: 30px;
+      line-height: 38.7px;
+      padding-bottom: 16px;
+      padding-top: 16px;
+    }
+    &_description_first {
+      text-align: left;
+      margin-top: 0;
+      margin-bottom: 0;
+      font-size: 18px;
+      line-height: 27px;
+    }
+    &_description_second {
+      margin-top: 0;
+      text-align: left;
+      margin-bottom: 0;
+      padding: 0;
+      font-size: 18px;
+      line-height: 27px;
+    }
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .advance_card {
+    &_title {
+      margin: 0;
+      font-size: 26px;
+      line-height: 32px;
+      padding-bottom: 12px;
+      padding-top: 12px;
+    }
+    &_description_first {
+      text-align: left;
+      margin-top: 0;
+      margin-bottom: 0;
+      font-size: 15px;
+      line-height: 22px;
+    }
+    &_description_second {
+      margin-top: 0;
+      text-align: left;
+      margin-bottom: 0;
+      padding: 0;
+      font-size: 15px;
+      line-height: 22px;
+    }
+    &_btn {
+      font-size: 15px;
+      padding-bottom: 0;
+      padding-top: 20px;
+      & button {
+        width: 15em;
+        font-size: 1em;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 900px) {
+  .advance_card {
+    &_title {
+      margin: 0;
+      font-size: 22px;
+      line-height: 27px;
+      padding-bottom: 10px;
+      padding-top: 10px;
+    }
+    &_description_first {
+      text-align: left;
+      margin-top: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      line-height: 18px;
+    }
+    &_description_second {
+      margin-top: 0;
+      text-align: left;
+      margin-bottom: 0;
+      padding: 0;
+      font-size: 12px;
+      line-height: 18px;
+    }
+    &_btn {
+      font-size: 12px;
+      padding-bottom: 0;
+      padding-top: 15px;
+      & button {
+        width: 15em;
+        font-size: 1em;
+      }
+    }
+  }
+}

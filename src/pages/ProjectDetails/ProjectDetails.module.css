@@ -1,0 +1,443 @@
+.projectDetails .img_wrap img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.projectDetails .project_details_card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.projectDetails .project_details_card .participate {
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #e5e5e5;
+}
+
+.projectDetails .project_details_card .participate .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1rem;
+  gap: 30px;
+}
+
+.projectDetails .project_details_card .participate .content .content_head {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30.5px;
+}
+
+.projectDetails .project_details_card .participate .content .content_details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  gap: 25px;
+}
+
+.projectDetails .project_details_card .participate .content .content_details .category {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.projectDetails .project_details_card .participate .content .content_details .category .left {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.projectDetails .project_details_card .participate .content .content_details .category .right {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  padding: 0 30px 0 10px;
+}
+
+.projectDetails .project_details_card .participate .content .content_details .categories_wrapper .category_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.projectDetails .project_details_card .participate .content .content_details .categories_wrapper .category_box .left {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  width: 50%;
+}
+
+.projectDetails .project_details_card .participate .content .content_details .categories_wrapper .category_box .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.projectDetails .project_details_card .participate .content .content_details .categories_wrapper .category_box .right span {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  padding-left: 10px;
+}
+
+.projectDetails .project_details_card .participate .content .content_details .categories_wrapper .category_box + .category_box {
+  padding-top: 1rem;
+}
+
+.projectDetails .project_details_card .participate .btn button {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  padding: 0.5rem 1.3rem;
+}
+
+.projectDetails .project_details_card .target_amount .target_desktop {
+  display: none;
+}
+
+.projectDetails .project_details_card .target_amount .copy_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 4rem 1rem;
+  border-bottom: 1px solid #adadad;
+  gap: 10px;
+}
+
+.projectDetails .project_details_card .target_amount .copy_wrapper .inputDesktop {
+  display: none;
+  border-radius: 100px;
+  font-family: "Raleway", sans-serif;
+  padding: 0.8rem 0;
+  border: 1px solid #adadad;
+}
+
+.projectDetails .project_details_card .target_amount .copy_wrapper .inputMobile {
+  border-radius: 100px;
+  font-family: "Raleway", sans-serif;
+  padding: 0.8rem 0;
+  border: 1px solid #adadad;
+}
+
+.projectDetails .project_details_card .target_amount .copy_wrapper .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.projectDetails .project_details_card .target_amount .copy_wrapper .copy_btn {
+  border-radius: 100px;
+  font-family: "Raleway", sans-serif;
+  background-color: #fff;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 25px;
+  border: 1px solid #242222;
+  padding: 0.3rem 2.4rem;
+}
+
+.projectDetails .project_details_card .target_amount .copy_wrapper .share {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+}
+
+.projectDetails .project_details_card .target_amount .copy_wrapper .share span {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.projectDetails .project_details_card .details {
+  padding: 1.5rem 1rem;
+  border-bottom: 1px solid #adadad;
+}
+
+.projectDetails .project_details_card .details img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.projectDetails .project_details_card .details .main_head {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  color: #2f455c;
+}
+
+.projectDetails .project_details_card .details .text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #2f455c;
+}
+
+.projectDetails .project_details_card .details .secondary_head {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23.5px;
+  color: #2f455c;
+}
+
+.projectDetails .project_details_card section.organizer_wrapper {
+  padding: 1.5rem;
+  border-top: 2px solid #e5e5e5;
+}
+
+.projectDetails .project_details_card section.organizer_wrapper_mobile {
+  display: none;
+}
+
+.projectDetails .project_details_card section.organizer_wrapper .organizer_name {
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.projectDetails .project_details_card section.organizer_wrapper .organizer_profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.projectDetails .project_details_card section.organizer_wrapper .organizer_profile .organizer_profile_img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.projectDetails .project_details_card section.organizer_wrapper .organizer_profile .organizer_profile_img img {
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.projectDetails .project_details_card section.organizer_wrapper .organizer_profile .organizer_profile_name {
+  font-weight: 500;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.projectDetails .project_details_card section.organizer_wrapper .organizer_address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.projectDetails .project_details_card section.organizer_wrapper .organizer_address_icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-width: 80px;
+  height: 80px;
+}
+
+.projectDetails .project_details_card section.organizer_wrapper .organizer_address_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.projectDetails .project_details_card section.organizer_wrapper .organizer_address_text {
+  padding: 1rem;
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 768px) {
+  .projectDetails .project_details_card {
+    margin: 2rem 8rem;
+    padding: 1rem;
+    -webkit-filter: drop-shadow(0px 15px 10px #b3b1b1);
+            filter: drop-shadow(0px 15px 10px #b3b1b1);
+    background-color: #fff;
+    border-radius: 0.8rem;
+  }
+  .projectDetails .project_details_card .participate .content {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .projectDetails .project_details_card .participate .content .content_head {
+    display: none;
+  }
+  .projectDetails .project_details_card .participate .content .content_details .categories_wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .projectDetails .project_details_card .participate .content .content_details .categories_wrapper .category_box {
+    width: unset;
+  }
+  .projectDetails .project_details_card .participate .content .content_details .categories_wrapper .category_box .left {
+    width: unset;
+    min-width: -webkit-fit-content;
+    min-width: -moz-fit-content;
+    min-width: fit-content;
+    font-size: 1rem;
+    margin-right: 1rem;
+  }
+  .projectDetails .project_details_card .participate .content .content_details .categories_wrapper .category_box + .category_box {
+    padding-top: 0;
+    padding-left: 1rem;
+  }
+  .projectDetails .project_details_card .target_amount {
+    padding-top: 15px;
+  }
+  .projectDetails .project_details_card .target_amount .target_desktop {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px;
+    padding: 0 1rem;
+  }
+  .projectDetails .project_details_card .target_amount .target_desktop span {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28.5px;
+  }
+  .projectDetails .project_details_card .target_amount .target_desktop .money {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 10px;
+  }
+  .projectDetails .project_details_card .target_amount .target_desktop .money span {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .projectDetails .project_details_card .target_amount .copy_wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 2rem 1rem;
+  }
+  .projectDetails .project_details_card .target_amount .copy_wrapper .bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .projectDetails .project_details_card .target_amount .copy_wrapper .inputDesktop {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 50%;
+    text-align: center;
+  }
+  .projectDetails .project_details_card .target_amount .copy_wrapper .inputMobile {
+    display: none;
+  }
+  .projectDetails .project_details_card .target_amount .copy_wrapper .share {
+    padding-left: 20px;
+  }
+  .projectDetails .project_details_card .details :nth-child(-n + 2) {
+    display: none;
+  }
+  .projectDetails .project_details_card .details img:nth-of-type(1) {
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 10rem;
+  }
+  .projectDetails .project_details_card section.organizer_wrapper {
+    display: none;
+  }
+  .projectDetails .project_details_card section.organizer_wrapper_mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 2rem 0;
+  }
+  .projectDetails .project_details_card section.organizer_wrapper_mobile .label {
+    font-weight: 700;
+    margin-right: 1rem;
+  }
+}
+/*# sourceMappingURL=ProjectDetails.module.css.map */

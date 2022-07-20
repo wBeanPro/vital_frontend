@@ -1,0 +1,125 @@
+.projects_wrap {
+  padding-bottom: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 25px;
+}
+
+.projects_head {
+  color: #2f455c;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+  background-image: url("../../assets/img/search-category-bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 25px 0;
+}
+
+.projects_inputBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.projects_inputBox_wrap {
+  padding: 1.2rem 1rem 2.5rem 1rem;
+  border-radius: 25px;
+  min-width: 18rem;
+  -webkit-filter: drop-shadow(0px 15px 10px #b3b1b1);
+          filter: drop-shadow(0px 15px 10px #b3b1b1);
+  background-color: #fff;
+}
+
+.projects_inputBox_name, .projects_inputBox_type, .projects_inputBox_category {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 8px;
+  padding-bottom: 15px;
+}
+
+.projects_inputBox_name_text, .projects_inputBox_type_text, .projects_inputBox_category_text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #2f455c;
+}
+
+.projects_inputBox_name_input, .projects_inputBox_type_input, .projects_inputBox_category_input {
+  color: #000;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  border-radius: 100px;
+  padding: 8px 10px;
+  border: 1px solid #e5e5e5;
+  font-family: "Raleway", sans-serif;
+  width: 100%;
+}
+
+.projects_btn_wrap button {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.5px;
+  padding: 0.4rem 0;
+  color: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+  .projects {
+    padding: 5%;
+  }
+  .projects_wrap_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .projects_wrap_container_projects {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .projects_inputBox {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+}
+/*# sourceMappingURL=Projects.module.css.map */

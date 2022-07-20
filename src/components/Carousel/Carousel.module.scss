@@ -1,0 +1,114 @@
+.carousel {
+  padding: 12px 20px;
+  cursor: pointer;
+  &_wrapper {
+    background-color: #fff;
+    border-radius: 40px;
+    overflow: hidden;
+    filter: drop-shadow(0px 15px 30px rgba(75, 75, 75, 0.302));
+  }
+  &_img {
+    width: 100%;
+  }
+
+  .carousel_body_wrapper {
+    padding: 17px 15px;
+  }
+  &_textWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+    padding-top: 10px;
+  }
+
+  &_title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.48px;
+    color: #2f455c;
+  }
+  &_info {
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 13px;
+    margin: 0;
+    text-align: center;
+  }
+  &_barWrap {
+    padding: 17px 15px;
+  }
+  &_barContainer {
+    border: 1px solid cyan;
+    border-color: linear-gradient(270deg, #34f2c6 2.2%, #1ecef7 100%);
+    padding: 4px;
+    border-radius: 100px;
+    filter: drop-shadow(0px 2px px rgba(75, 75, 75, 0.302));
+  }
+  &_bar {
+    border-radius: 100px;
+    padding: 10px 0;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    &::before {
+      content: "";
+      background-color: red;
+      background: linear-gradient(270deg, #34f2c6 2.2%, #1ecef7 100%);
+      border-radius: 100px;
+      padding: 10px 25px;
+      position: absolute;
+      width: 60%;
+      left: 0;
+      height: 100%;
+    }
+  }
+  .carousel_bar.w0::before {
+    width: 0;
+  }
+  .carousel_bar.w10::before {
+    width: 10%;
+  }
+  .carousel_bar.w20::before {
+    width: 20%;
+  }
+  .carousel_bar.w30::before{
+    width: 30%;
+  }
+  .carousel_bar.w40::before {
+    width: 40%;
+  }
+  .carousel_bar.w50::before {
+    width: 50%;
+  }
+  .carousel_bar.w60::before {
+    width: 60%;
+  }
+  .carousel_bar.w70::before {
+    width: 70%;
+  }
+  .carousel_bar.w80::before {
+    width: 80%;
+  }
+  .carousel_bar.w90::before {
+    width: 90%;
+  }
+  .carousel_bar.w100::before {
+    width: 100%;
+  }
+  &_current {
+    font-size: 12px;
+    color: #fff;
+    z-index: 2;
+    padding-left: 15px;
+  }
+  &_total {
+    font-size: 12px;
+    color: #000;
+    z-index: 2;
+    padding-right: 10px;
+  }
+}

@@ -1,0 +1,72 @@
+.overlay_wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 1.5rem 0 1.5rem;
+    height: 100%;
+    width: 100%;
+}
+.overlay_head {
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    span {
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 14px;
+        color: #454545;
+        text-align: justify;
+    }
+}
+.btn_connect {
+    position: relative;
+    padding: 1rem 1.8rem;
+    border-radius: 3rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    .flex_div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img {
+            width: 35px;
+        }
+        span {
+            width: 100%;
+            font-size: 1rem;
+            padding-left: 12px;
+            font-weight: 600;
+        }
+        svg {
+           color: #1ecef7;
+        }
+    }
+}
+.btn_connect > span {
+    position: absolute;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    display: block;
+    a, button {
+        width: 100%;
+        height: 100%;
+    }
+}
+.btn_connect:hover {
+    background: linear-gradient(270deg, #34f2c6 2.2%, #1ecef7 100%);
+    .flex_div {
+        span, svg {
+            color: white;
+        }
+    }
+}
+.bottom_div {
+    margin-top: 2rem;
+    text-align: center;
+    span {
+        display: block;
+        margin-bottom: 0.3rem;
+    }
+}

@@ -1,0 +1,105 @@
+@media only screen and (min-width: 768px) {
+  .Ocassion_box {
+    padding: 1rem 0;
+    padding-right: 0.5rem;
+    max-width: 10rem;
+  }
+  .Ocassion_box_head {
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 20px;
+    color: #2f455c;
+    margin: 0;
+    padding-bottom: 0.5rem;
+  }
+  .Ocassion_box_description {
+    font-weight: 500;
+    font-size: 0.6rem;
+    color: #2f455c;
+    margin: 0;
+    max-width: 145px;
+  }
+  .Ocassion_box_btn {
+    padding: 1.5rem 0 0.5rem 0;
+    font-size: 12px;
+  }
+  .Ocassion_box_btn button {
+    font-weight: 400;
+    font-size: 0.8em;
+    width: 13em;
+    line-height: 14.09px;
+    color: #fff;
+    padding: 0.5rem 0.5rem;
+  }
+  .Ocassion_box + .Ocassion_box {
+    margin-left: 5rem;
+  }
+  [sel="Wedding"] {
+    position: absolute;
+    left: 19%;
+  }
+  [sel="Community"] {
+    position: absolute;
+    left: 36%;
+  }
+  [sel="Health"] {
+    position: absolute;
+    left: 58%;
+  }
+  [sel="Other common expenses"] {
+    position: relative;
+    right: -5%;
+  }
+  [sel="Birthday"] {
+    position: absolute;
+    left: 8%;
+  }
+  [sel="Baby shower"] {
+    position: absolute;
+    left: 24%;
+  }
+  [sel="Animals"] {
+    position: absolute;
+    left: 47%;
+  }
+  [sel="Weekend getaway"] {
+    position: relative;
+    left: 72%;
+  }
+}
+
+@media only screen and (min-width: 1408px) {
+  [sel="Wedding"] {
+    position: absolute;
+    left: 21%;
+  }
+  [sel="Community"] {
+    position: absolute;
+    left: 38.5%;
+  }
+  [sel="Health"] {
+    position: absolute;
+    left: 59.5%;
+  }
+  [sel="Other common expenses"] {
+    position: relative;
+    right: -2%;
+  }
+  [sel="Birthday"] {
+    position: absolute;
+    left: 11%;
+  }
+  [sel="Baby shower"] {
+    position: absolute;
+    left: 27.5%;
+  }
+  [sel="Animals"] {
+    position: absolute;
+    left: 49%;
+  }
+  [sel="Weekend getaway"] {
+    position: relative;
+    left: 74%;
+  }
+}
+/*# sourceMappingURL=Ocassion_boxes.module.css.map */
